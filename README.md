@@ -1,10 +1,15 @@
 # Real-time parking lot occupancy detection using Deep Learning
 
-This repo has source code and model files for the modified implementation of [Real-time image-based parking occupancy detection using deep learning, Acharya, D., Yan, W., &amp; Khoshelham, K. 2018](http://ceur-ws.org/Vol-2087/paper5.pdf) work.
+TensorFlow and Keras implementation of [Real-time image-based parking occupancy detection using deep learning, Acharya, D., Yan, W., &amp; Khoshelham, K. 2018](http://ceur-ws.org/Vol-2087/paper5.pdf) work.
 
-The authors implemented the model using pre-trained VGG network and Support Vector Machines (SVM). VGG network is used for feature extractions and SVM is used for classificaition. They used PKLot dataset for training and evaluated on custom dataset created by authors.
+The authors implemented the model using pre-trained VGG network and Support Vector Machines (SVM). VGG network used for feature extractions and SVM used for classificaition. Authors used PKLot dataset for model training and evaluated the model on custom dataset created by authors.
 
-I exprimented with ResNet50 and VGG16 for featre extraction and used SVM and CNN for classification. SVM model with ResNet-50 gave better performance of average f1-score compared to all other models. The models are trained and evaluated on PKLot dataset. Please find the model metrics in the respective notebooks
+I exprimented with different models for featre extraction and classification. SVM model with ResNet-50 feature extractor gave better performance of average f1-score compared to all other models. PKLot dataset is used to train and evaluate the model. Please find the model metrics in the respective notebooks.
+
+Implemented using,
+- TensorFlow
+- Keras
+- scikit-learn
 
 ## Notebooks
 Following are the notebooks you can find in the repo,
@@ -13,7 +18,7 @@ Following are the notebooks you can find in the repo,
 - VGG16 - [cnn_models_vgg16.ipynb](cnn_models_vgg16.ipynb)
 - CNN from scratch - [cnn_models_from_scratch.ipynb](cnn_models_from_scratch.ipynb)
 - ResNet50 + SVM - [resnet50_linear_svm_model.ipynb](resnet50_linear_svm_model.ipynb)
-
+- VGG16 + SVM - [vgg16_linear_svm_model.ipynb](vgg16_linear_svm_model.ipynb)
 
 ## Model framework
 ![Model framework](images/model_framework.JPG)
