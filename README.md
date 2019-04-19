@@ -4,4 +4,7 @@ This repo has source code and model files for the implementation of "Real-time i
 
 The author implemented the model using pre-trained VGG network and Support Vector Machines. The model is trained on PKLot dataset and evaluated on custom dataset created by authors.
 
+![Model Framework] (/images/model_framework.JPG)
+
 PKLot dataset - https://web.inf.ufpr.br/vri/databases/parking-lot-database/
+
