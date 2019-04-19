@@ -4,7 +4,7 @@ TensorFlow and Keras implementation of [Real-time image-based parking occupancy 
 
 The authors implemented the model using pre-trained VGG network and Support Vector Machines (SVM). VGG network used for feature extractions and SVM used for classificaition. Authors used PKLot dataset for model training and evaluated the model on custom dataset created by authors.
 
-I exprimented with different models for featre extraction and classification. SVM model with ResNet-50 feature extractor gave better performance of average f1-score compared to all other models. PKLot dataset is used to train and evaluate the model. Please find the model metrics in the respective notebooks.
+I exprimented with different models for featre extraction and classification. SVM model with ResNet-50 feature extractor gave better performance of average f1-score compared to all other models. PKLot dataset is used to train and evaluate the model. UFPR04 and UFPR05 parking lot data used for training and PUC parking lot data used for validation. Please find the model metrics in the respective notebooks.
 
 Implemented using,
 - TensorFlow
@@ -13,7 +13,7 @@ Implemented using,
 
 ## Notebooks
 Following are the notebooks you can find in the repo,
-- Dataset creation - [create_dataset_index.ipynb](create_dataset_index.ipynb)
+- Dataset creation - [create_dataset_index.ipynb](create_dataset_index.ipynb) Note: 
 - CNN models
   - ResNet50 - [cnn_models_resnet50.ipynb](cnn_models_resnet50.ipynb)
   - VGG16 - [cnn_models_vgg16.ipynb](cnn_models_vgg16.ipynb)
