@@ -14,11 +14,13 @@ Implemented using,
 ## Notebooks
 Following are the notebooks you can find in the repo,
 - Dataset creation - [create_dataset_index.ipynb](create_dataset_index.ipynb)
-- ResNet50 - [cnn_models_resnet50.ipynb](cnn_models_resnet50.ipynb)
-- VGG16 - [cnn_models_vgg16.ipynb](cnn_models_vgg16.ipynb)
-- CNN from scratch - [cnn_models_from_scratch.ipynb](cnn_models_from_scratch.ipynb)
-- ResNet50 + SVM - [resnet50_linear_svm_model.ipynb](resnet50_linear_svm_model.ipynb)
-- VGG16 + SVM - [vgg16_linear_svm_model.ipynb](vgg16_linear_svm_model.ipynb)
+- CNN models
+  - ResNet50 - [cnn_models_resnet50.ipynb](cnn_models_resnet50.ipynb)
+  - VGG16 - [cnn_models_vgg16.ipynb](cnn_models_vgg16.ipynb)
+  - CNN from scratch - [cnn_models_from_scratch.ipynb](cnn_models_from_scratch.ipynb)
+- CNN with SVM
+  - ResNet50 + SVM - [resnet50_linear_svm_model.ipynb](resnet50_linear_svm_model.ipynb)
+  - VGG16 + SVM - [vgg16_linear_svm_model.ipynb](vgg16_linear_svm_model.ipynb)
 
 ## Model framework
 ![Model framework](images/model_framework.JPG)
