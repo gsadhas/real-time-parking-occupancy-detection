@@ -1,5 +1,7 @@
 # Real-time parking lot occupancy detection using Deep Learning
 
+## Note: No support is available for this repo.
+
 TensorFlow and Keras implementation of [Real-time image-based parking occupancy detection using deep learning, Acharya, D., Yan, W., &amp; Khoshelham, K. 2018](http://ceur-ws.org/Vol-2087/paper5.pdf) work.
 
 The authors implemented the model using pre-trained VGG network and Support Vector Machines (SVM). VGG network used for feature extractions and SVM used for classificaition. Authors used PKLot dataset for model training and evaluated the model on custom dataset created by authors.
